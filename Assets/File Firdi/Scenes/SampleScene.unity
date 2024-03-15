@@ -1216,7 +1216,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Slime: {fileID: 441483604}
-  Goblin: {fileID: 0}
 --- !u!114 &1172965702
 MonoBehaviour:
   m_ObjectHideFlags: 0
