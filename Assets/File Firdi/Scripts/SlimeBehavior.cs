@@ -29,6 +29,10 @@ public class SlimeBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (IsGrounded() && !Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetBool("isJumping", false);
+        }
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
@@ -45,7 +49,7 @@ public class SlimeBehavior : MonoBehaviour
     {
         isSlide = true;
         canSlide = false;
-        //animator.SetBool("isSlide", true);
+        animator.SetBool("isSlide", true);
         //Physics2D.IgnoreLayerCollision(3, 7, true);
         //Physics2D.IgnoreLayerCollision(3, 8, true);
         rb.velocity = new Vector2(SlimeMovement.instance.transform.localScale.x * slideSpeed, 0);
@@ -55,7 +59,7 @@ public class SlimeBehavior : MonoBehaviour
         isSlide = false;
         yield return new WaitForSeconds(slideCoolDown);
         canSlide = true;
-        //animator.SetBool("isSlide", false);
+        animator.SetBool("isSlide", false);
     }
     private bool IsGrounded()
     {

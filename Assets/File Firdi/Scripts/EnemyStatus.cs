@@ -19,10 +19,18 @@ public class EnemyStatus : MonoBehaviour
     {
         if (PossesEnemy.instance.isPosses == true && isdead == true)
         {
-            DestroyImmediate(gameObject);
+            StartCoroutine(Wait());
+            //Destroy(gameObject);
             isdead = false;
-            PossesEnemy.instance.gameObject.SetActive(false);
+            SlimeBehavior.instance.animator.SetTrigger("Posses");
+            //PossesEnemy.instance.gameObject.SetActive(false);
             PossesEnemy.instance.iD = iD;
         }
+    }
+
+    public IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(0.5f);
+        DestroyImmediate(gameObject);
     }
 }
