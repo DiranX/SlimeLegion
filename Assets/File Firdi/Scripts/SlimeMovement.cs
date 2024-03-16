@@ -27,15 +27,16 @@ public class SlimeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PossesEnemy.instance.gameObject.activeSelf != true)
+        if (PossesEnemy.instance.gameObject.active == false)
         {
-            enemytoPosses[PossesEnemy.instance.iD].SetActive(true);
             animator = GetComponentInChildren<Animator>();
             //GetComponent<SlimeMovement>().enabled = false;
             PossesEnemy.instance.isPosses = false;
             PossesEnemy.instance.enemyisDead = false;
+            //StartCoroutine(Wait());
+            enemytoPosses[PossesEnemy.instance.iD].SetActive(true);
         }
-        else
+        else if(PossesEnemy.instance.gameObject.activeSelf == true)
         {
             runSpeed = originalSpeed;
         }
@@ -63,5 +64,11 @@ public class SlimeMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+
+    public IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(0.5f);
+        enemytoPosses[PossesEnemy.instance.iD].SetActive(true);
     }
 }
