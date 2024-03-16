@@ -153,8 +153,8 @@ Transform:
   m_GameObject: {fileID: 441483604}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0.195, z: -2.31}
-  m_LocalScale: {x: 2.1682506, y: 2.1682506, z: 2.1682506}
+  m_LocalPosition: {x: -0.01, y: -0.182, z: -2.31}
+  m_LocalScale: {x: 0.35342237, y: 0.35342237, z: 0.35342237}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 549038316}
@@ -201,7 +201,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5b7c18324721218428b29880c7ccb5b4, type: 3}
+  m_Sprite: {fileID: -561404050, guid: 212c8a280061ad642b6e34d964905928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -265,18 +265,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0015790462, y: 0.0055267364}
+  m_Offset: {x: -0.019963294, y: -0.3466353}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.99982136, y: 1.001286}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14314502, y: 0.11630103}
+  m_Size: {x: 0.4589978, y: 0.3080154}
   m_EdgeRadius: 0
 --- !u!114 &441483610
 MonoBehaviour:
@@ -290,16 +290,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975bbe07b7618a6469ddd6bbc9ea8e8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpingPower: 20
+  jumpingPower: 14
   animator: {fileID: 441483607}
   rb: {fileID: 1172965707}
   groundCheck: {fileID: 549038316}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  slideSpeed: 5
-  slideTime: 0.2
-  slideCoolDown: 1
+  slideSpeed: 4
+  slideTime: 0.1
+  slideCoolDown: 0.7
   isSlide: 0
   canSlide: 1
 --- !u!114 &441483611
@@ -614,7 +614,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &549038316
 Transform:
   m_ObjectHideFlags: 0
@@ -624,7 +624,7 @@ Transform:
   m_GameObject: {fileID: 549038315}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.054, z: 0}
+  m_LocalPosition: {x: 0, y: -0.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -644,7 +644,7 @@ GameObject:
   - component: {fileID: 609916942}
   m_Layer: 3
   m_Name: Skeleton
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 734640428}
   m_Layer: 3
   m_Name: Goblin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1281,7 +1281,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02011798, y: -0.26487786}
+  m_Offset: {x: -0.019140724, y: -0.3342607}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1292,7 +1292,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.24992749, y: 0.1719302}
+  m_Size: {x: 0.103344075, y: 0.0331645}
   m_EdgeRadius: 0
 --- !u!114 &1172965705
 MonoBehaviour:
@@ -1348,7 +1348,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1324761464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,7 +1638,7 @@ GameObject:
   - component: {fileID: 2033068052}
   m_Layer: 3
   m_Name: Zombie
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

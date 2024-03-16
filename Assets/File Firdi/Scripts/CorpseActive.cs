@@ -45,7 +45,7 @@ public class CorpseActive : MonoBehaviour
             SlimeMovement.instance.enemytoPosses[PossesEnemy.instance.iD].SetActive(false);
             Slime.SetActive(true);
             SlimeMovement.instance.enabled = true;
-            Skeleton.enabled = false;
+            //Skeleton.enabled = false;
         }
     }
 }
