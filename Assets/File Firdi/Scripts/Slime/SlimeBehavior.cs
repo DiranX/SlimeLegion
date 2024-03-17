@@ -44,6 +44,11 @@ public class SlimeBehavior : MonoBehaviour
         {
             StartCoroutine(Sliding());
         }
+
+        if(isSlide == false)
+        {
+            SlimeMovement.instance.HorizontalMove();
+        }
     }
     public IEnumerator Sliding()
     {

@@ -44,11 +44,11 @@ public class SlimeMovement : MonoBehaviour
         //Player Move
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-        if(SlimeBehavior.instance.isSlide == false)
-        {
-            HorizontalMove();
-        }
         Flip();
+        if (SlimeBehavior.instance.isSlide == false || SkeletonBehavior.instance.isSlide == false)
+        {
+            //HorizontalMove();
+        }
     }
     public void HorizontalMove()
     {
