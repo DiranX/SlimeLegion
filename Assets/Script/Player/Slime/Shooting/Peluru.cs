@@ -15,6 +15,7 @@ public class Peluru : MonoBehaviour
         if (Input.GetButtonDown("Fire1") )
         {
             shoot1();
+            SlimeBehavior.instance.animator.Play("Shoot");
         }
     }
     void shoot1()

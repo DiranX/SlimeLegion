@@ -7,6 +7,8 @@ public class SlimeBehavior : MonoBehaviour
     public static SlimeBehavior instance;
 
     public float jumpingPower;
+    private bool doubleJump;
+    public float doubleJumpingPower;
     public Animator animator;
     public Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -29,15 +31,22 @@ public class SlimeBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (IsGrounded() && !Input.GetKeyDown(KeyCode.Space))
+        if (IsGrounded() && !Input.GetButton("Jump"))
         {
+            doubleJump = false;
             animator.SetBool("isJumping", false);
-        }
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
 
-            animator.SetBool("isJumping", true);
+        }
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (IsGrounded() || doubleJump)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, doubleJump ? doubleJumpingPower : jumpingPower);
+
+                doubleJump = !doubleJump;
+                animator.SetBool("isJumping", true);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canSlide)

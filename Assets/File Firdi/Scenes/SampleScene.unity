@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6104293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6104294}
+  m_Layer: 0
+  m_Name: GroundCheck (1)
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6104294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6104293}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.19174898, z: -1.3264079}
+  m_LocalScale: {x: 0.39665884, y: 0.39665884, z: 0.39665884}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 734640431}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &71627206
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,12 +179,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71627206}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.011, y: -0.391, z: 3.3439522}
+  m_LocalScale: {x: 1.2599317, y: 1.2599317, z: 1.2599317}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1172965699}
+  m_Father: {fileID: 356672425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &71627208
 MonoBehaviour:
@@ -172,7 +203,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
   m_Color: {r: 0.19607845, g: 0.909804, b: 0.62352943, a: 1}
-  m_Intensity: 2
+  m_Intensity: 0.7
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -193,7 +224,7 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 1.1
+  m_PointLightInnerRadius: 1.2333851
   m_PointLightOuterRadius: 14.45
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
@@ -205,6 +236,39 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &356672424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 356672425}
+  m_Layer: 3
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &356672425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356672424}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 71627207}
+  - {fileID: 2100907977}
+  m_Father: {fileID: 441483605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &441483604
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +306,7 @@ Transform:
   m_Children:
   - {fileID: 549038316}
   - {fileID: 1906194227}
+  - {fileID: 356672425}
   m_Father: {fileID: 1172965699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &441483606
@@ -375,13 +440,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpingPower: 20
+  doubleJumpingPower: 0
   animator: {fileID: 441483607}
   rb: {fileID: 1172965707}
   groundCheck: {fileID: 549038316}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  slideSpeed: 4
+  slideSpeed: 3
   slideTime: 0.2
   slideCoolDown: 0.7
   isSlide: 0
@@ -1011,7 +1077,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2006707709}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &734640427
 GameObject:
@@ -1164,7 +1230,7 @@ Transform:
   m_LocalScale: {x: 1.7415453, y: 1.7415453, z: 1.7415453}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1670247641}
+  - {fileID: 6104294}
   - {fileID: 537418421}
   m_Father: {fileID: 1172965699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1183,7 +1249,7 @@ MonoBehaviour:
   jumpingPower: 15
   animator: {fileID: 734640428}
   rb: {fileID: 1172965707}
-  groundCheck: {fileID: 1670247641}
+  groundCheck: {fileID: 6104294}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -1409,8 +1475,6 @@ Transform:
   - {fileID: 734640431}
   - {fileID: 609916939}
   - {fileID: 2033068055}
-  - {fileID: 71627207}
-  - {fileID: 2100907977}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1172965700
@@ -1457,7 +1521,7 @@ MonoBehaviour:
   - {fileID: 609916938}
   - {fileID: 2033068051}
   runSpeed: 10
-  originalSpeed: 6
+  originalSpeed: 4
   animator: {fileID: 441483607}
 --- !u!61 &1172965704
 BoxCollider2D:
@@ -1834,53 +1898,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
-
---- !u!1 &1670247640
-
---- !u!1 &2006707708
-
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-
-  - component: {fileID: 1670247641}
-  m_Layer: 0
-  m_Name: GroundCheck
-  m_TagString: Player
-
-  - component: {fileID: 2006707709}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-
---- !u!4 &1670247641
-
---- !u!4 &2006707709
-
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-
-  m_GameObject: {fileID: 1670247640}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.19174898, z: -1.3264079}
-  m_LocalScale: {x: 0.39665884, y: 0.39665884, z: 0.39665884}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 734640431}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906194226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,17 +1928,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 441483605}
-
-  m_GameObject: {fileID: 2006707708}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6174405, y: -1.6822922, z: -0.10377586}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 619394802}
-  m_Father: {fileID: 0}
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2033068051
 GameObject:
@@ -2100,12 +2106,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100907976}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0028952134, y: -0.503, z: 3.3439522}
+  m_LocalScale: {x: 1.4475983, y: 1.4475983, z: 1.4475983}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1172965699}
+  m_Father: {fileID: 356672425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2100907978
 MonoBehaviour:
@@ -2124,7 +2130,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
   m_Color: {r: 0.19607845, g: 0.909804, b: 0.62352943, a: 1}
-  m_Intensity: 3
+  m_Intensity: 0.7
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -2143,9 +2149,9 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 360
-  m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.69
+  m_PointLightInnerAngle: 167.44
+  m_PointLightOuterAngle: 268.51
+  m_PointLightInnerRadius: 0.7668577
   m_PointLightOuterRadius: 3.32
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
@@ -2167,8 +2173,5 @@ SceneRoots:
   - {fileID: 978414202}
   - {fileID: 1324761468}
   - {fileID: 441852740}
-
   - {fileID: 740949309}
-
-  - {fileID: 2006707709}
-
+  - {fileID: 619394802}
