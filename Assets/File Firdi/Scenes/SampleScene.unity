@@ -1250,6 +1250,7 @@ MonoBehaviour:
   animator: {fileID: 734640428}
   rb: {fileID: 1172965707}
   groundCheck: {fileID: 6104294}
+  groundCheck: {fileID: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
