@@ -5,12 +5,12 @@ using UnityEngine;
 public class SlimeBehavior : MonoBehaviour
 {
     public static SlimeBehavior instance;
-
-    public float jumpingPower;
-    private bool doubleJump;
-    public float doubleJumpingPower;
     public Animator animator;
     public Rigidbody2D rb;
+
+    public float jumpingPower;
+    public float doubleJumpingPower;
+    private bool doubleJump;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
@@ -58,23 +58,26 @@ public class SlimeBehavior : MonoBehaviour
         {
             SlimeMovement.instance.HorizontalMove();
         }
+
+        SlimeMovement.instance.Flip();
     }
     public IEnumerator Sliding()
     {
         isSlide = true;
         canSlide = false;
         animator.SetBool("isSlide", true);
-        //Physics2D.IgnoreLayerCollision(3, 7, true);
+        Physics2D.IgnoreLayerCollision(3, 8, true);
         //Physics2D.IgnoreLayerCollision(3, 8, true);
         rb.velocity = new Vector2(SlimeMovement.instance.transform.localScale.x * slideSpeed, 0);
         yield return new WaitForSeconds(slideTime);
-        //Physics2D.IgnoreLayerCollision(3, 7, false);
+        Physics2D.IgnoreLayerCollision(3, 8, false);
         //Physics2D.IgnoreLayerCollision(3, 8, false);
         isSlide = false;
         yield return new WaitForSeconds(slideCoolDown);
         canSlide = true;
         animator.SetBool("isSlide", false);
     }
+
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
