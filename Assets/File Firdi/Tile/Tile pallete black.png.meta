@@ -1,0 +1,3889 @@
+fileFormatVersion: 2
+guid: f89dfa95fd4162847bb3ad18e85d9a9b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile pallete black_0
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cd37c5ce5d22e429709ec1bc9d8486
+      internalID: 445680481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_1
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae8d51417c68db4ea297785e03f921b
+      internalID: -1345782305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400b33d1e70fb0b468bb14c874391d60
+      internalID: -1239237837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_3
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ebea26ebc57e445a6dce65725d0dcf
+      internalID: 475399772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4026c1fa899914d9bc936a2557ce43
+      internalID: 296879444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_5
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cda3b0bab65144cac4bf0fda0a5405
+      internalID: 559941175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_6
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161465a031aadae46a7f71a5f4189084
+      internalID: -1955959409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b89bce21cafa94292b5f6a01d16599
+      internalID: 594843513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_8
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fa34d9d8b96b941adba6754aca0f15
+      internalID: 313454603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_9
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae35e9c4f0150d4a982f2eda1bdd14e
+      internalID: -1757727814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_10
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6fdb1de88178a4b81ff524790c39c9
+      internalID: 629583328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc833a6241b8b44887f8577fb47b9a0
+      internalID: 1060837375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd599aa3d0bb6b542b96284880a875fc
+      internalID: 1797090412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a12b6c327d0b04f9b05783c811a42a
+      internalID: -124131571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914131ffb1c50634d8f35b74b606f501
+      internalID: 93613988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031a08264760b41498ca55c9eb48c9d3
+      internalID: 265538727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156fd85a41478214d9e9aca37ee89f2e
+      internalID: 1798099503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c967b1445f196049a114bb38a26521b
+      internalID: 1060070448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147fabbc008b76489ab6ac3ec090b4e
+      internalID: -1368229378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773ad6e1c287d634484736cc25235ac0
+      internalID: 1391389601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8373868aece12fb4aafca0f621b05086
+      internalID: -440802762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_21
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eb08f73b0f89f4eae75691b8aaa8ad
+      internalID: -894191753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_22
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a7e82e25dbee24c9ac4791920e3497
+      internalID: -57325441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_23
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66336f1a6031ee941a0adbf71aed7de0
+      internalID: -942441292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_24
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27737e8431414541bbc6f704a59ea7c
+      internalID: 25860530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_25
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c091cb68213206f458078f6bda78dadb
+      internalID: -878116294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_26
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71cec71bfd91834293231b6ee215065
+      internalID: 1160544348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_27
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f40640f10d64a849bf139d4982f39b6
+      internalID: -1273827338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_28
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3142ad7633dd54ba7f730bc1d7e32b
+      internalID: -363748557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_29
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f6cf9ff7d7e304abd015c07d83af4d
+      internalID: -182133042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_30
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01098e05b916258498756640ab85e72f
+      internalID: 1658323380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a462edf250941d499ee72ac834a1f47
+      internalID: 644029326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_32
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bae45ef69b32c24492beea6b03a029f
+      internalID: -1616444915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_33
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cecc0ce195c68d41a1a80cfdf940e0c
+      internalID: 1321552724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495f3629ed4edd144b96dca9e96117d6
+      internalID: -2051764112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_35
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5af456880b834469d11dc796639967
+      internalID: 792112319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_36
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0778bc1ca010504b8fbf675ce2441e3
+      internalID: 641001444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_37
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16928e2160110de40a672011c550ccbf
+      internalID: -459185441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_38
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dfe8e0e3d853546b34be153223cda2
+      internalID: 803867489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_39
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4a482f89c557844a0d503e8c91243d
+      internalID: 1728077114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_40
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0699ffd7f04c5324ab2e3c59bfd332cf
+      internalID: -1329355202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_41
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b210721368c9383479c62babe82efc2f
+      internalID: -1301006444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_42
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8a77d3886848e49bd58f7a7a9c3758
+      internalID: 221116421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_43
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6995b44edc521784eacdf394042fadf2
+      internalID: 1260124293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_44
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677cf6799143bff45a8893f8eb45c086
+      internalID: -494474056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_45
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2af31228f8f1094e96b439dc922f655
+      internalID: -1065256450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_46
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b714ada21a85b21449c4f58b838cced5
+      internalID: 2132244690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_47
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4cb1aaf542a594d9651063b905a552
+      internalID: 1140018478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_48
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377d49cf1145ced45bbee0eb54244127
+      internalID: -2069078214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b3fee56c8f834499a0e4cb54817ea6
+      internalID: -896879894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_50
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5b95a9fe6c78a44a949319fd2991e1
+      internalID: 518758089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_51
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761a12263297d344a9247cf2818d85f2
+      internalID: 1456677538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_52
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05a66ba6449bfb448617f4406d5df6c
+      internalID: 1324325630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_53
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de70fc820b266a8498b33e9153c9bacb
+      internalID: -1344991031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_54
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac864a72bd2884458be44239942647c
+      internalID: 1096596991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_55
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e2f480a43e3db49bb3e2f04055efda
+      internalID: -1838222832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_56
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83b523bdb650574fb43ab23baa93704
+      internalID: 832457399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_57
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9992f60f408d8747b94fdf49d8f7dd1
+      internalID: -311656660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_58
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2df827f645c9e941a2be6ad65402d7d
+      internalID: -1119895321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_59
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6631b866fcca7545abbccc352a81107
+      internalID: -92297180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_60
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dcd790574d27945986f5641d25cff0
+      internalID: -672185105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_61
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b83ea1e5081264f893540b57586faa
+      internalID: 1290404147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_62
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df112ea5f04c67c41bedac28bfa0826d
+      internalID: -588192680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_63
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facb9b90475a74c4d948a745f197c04e
+      internalID: -2089400927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_64
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a901291bb95db4549b9d4dcc9690ec5e
+      internalID: 2025830261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_65
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a25630a21920fb4fb49cd7a0b4d7daa
+      internalID: -175985023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_66
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbf05b6d8f48274f8caba27aff534fc
+      internalID: 1572075297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_67
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f281925e532ca469f324d40f7a7a6b
+      internalID: -1469127359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_68
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13fbd08fe80c54381542b0eae6cddc
+      internalID: -624188368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_69
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a689da47406ff964897ffb5bcd3ab97d
+      internalID: -1741273374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_70
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e9e7344bed4e24c92b794c9b718de2
+      internalID: 69881941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_71
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec058fbdb0d3fd845b423e2b3deca3c6
+      internalID: 1557841071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_72
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad240859a270dc408570b45502f169c
+      internalID: -738593804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_73
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c8eb1f9c7bc424abb0512624d5a079
+      internalID: 940793012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_74
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bbcedf033ee954188f8e78b2e7631b
+      internalID: -1878480306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3479bb91a613e4abe88997050ceed8
+      internalID: 296357905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_76
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bd1420fb9a50b449f4bff52f3f00e2
+      internalID: -466246568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_77
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e735f9a9af480df47aed53062b159ff6
+      internalID: 1755592957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_78
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948c1bd5615f2254a96f8d6c92adec8d
+      internalID: -2015883120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_79
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e671789989224479a5d60e53b9fa6a
+      internalID: 49915194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_80
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd84f648a9424754d84e20fadf19fe7d
+      internalID: 1075463530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_81
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20c8f208b3460341b821868e1a5b554
+      internalID: 1913868511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_82
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5537768b6035ca408709dae7967073e
+      internalID: 1762078536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_83
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a076c9eb3541845b7a8fd634bd6b41
+      internalID: -285324265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_84
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45525e49d5900d45a635d9dfea91042
+      internalID: -1806869407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_85
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca61f6ca0512884585b495e48a52cd0
+      internalID: 1468521219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_86
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b732a7ce0d4ecc429b088c832e61025
+      internalID: -1970994034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_87
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237941672bfb24441b98f28158489260
+      internalID: -995869104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_88
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99789e623e6b41469d0db044bc347f2
+      internalID: -247333071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_89
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1385f215027274087fdf4b714357d8
+      internalID: 634497569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_90
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e9a933c7457649ad086c5d5884d0a
+      internalID: -2028495345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_91
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e041a8a838a6ba24982fdf99daf42260
+      internalID: 1759605749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_92
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be695f79523310e4393a3957fc2271e4
+      internalID: 1657684818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_93
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5741e343e64677944b13c3ceba56ff25
+      internalID: 663002960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_94
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71fa5530f59e2a47a1399e81f1c2843
+      internalID: -1310776965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_95
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88961d98e3b1f514fbbda7dbaa90895e
+      internalID: 576994247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_96
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4cad8e16c481b45b819503efcfad7d
+      internalID: 1548280940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_97
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23082b2292b9d5e469baf822743412e8
+      internalID: 280459738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_98
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde36eea7b1ae8d449fc97703f22efc5
+      internalID: -1219871117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_99
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d97f806d47bc304cae1cbc589a955fc
+      internalID: -750430956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_100
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a63fbc82c6c0b847be5311185482b9d
+      internalID: -167879770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_101
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a02dc7dd159aaf4cbc96bb8efb34eb7
+      internalID: -56888987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_102
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819536eb32805584ebf6cd1eaeac6a89
+      internalID: -1139050361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_103
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052c0d88f2bf62946a3647fceaff0a81
+      internalID: 501885503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_104
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46955b3e821de71448cb5fe1375e09fd
+      internalID: -1498667621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_105
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ef7158b81a6d2419b5d966f3c909ad
+      internalID: -1195111420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_106
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c7d2a61ef0f44aa867f9efde79d91
+      internalID: 1950109968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_107
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ac491a97d1e1f48929db2852243225
+      internalID: 1799479064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_108
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9accd4fcb00f9194fa1aef024290eb33
+      internalID: 1350151601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_109
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c136cb9d17e92488de9781d93b64f7
+      internalID: -482299394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_110
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b2fe77c5b2f974ea3125f61b76bb61
+      internalID: 1357530160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_111
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ea00703d7d4e242b6971fea30056d9
+      internalID: -184482691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_112
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d24ead48e98ca4b9be6a9263f5daf5
+      internalID: 613712698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_113
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b76edbe2240ed4fa671d83a68e83fd
+      internalID: -1435482554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_114
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd4c7391fac8714faaf1f545ac6da77
+      internalID: -373477679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_115
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a35684f6c56c0247abc2782b72cb6e9
+      internalID: 1744340120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_116
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8066e46ba1560794ca68e7381edb6d21
+      internalID: 1207591631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_117
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9a485011d22b54c8a85d7e1200047e
+      internalID: 828511892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_118
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6939c6fdcaca0408eb77528c532263
+      internalID: 2136176245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_119
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa742b2b40e8f374894b013d764b3432
+      internalID: -1139153632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_120
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4898dcb9a8dfa49971e544c7235421
+      internalID: -268653256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_121
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19d06c564ee14e47bc47579a70ce276
+      internalID: -851762128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_122
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7dd30dbb58d2d438c955e61b7c1603
+      internalID: -944538941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_123
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd6db0fe1f7e3a4089f76084880ac9d
+      internalID: 1343084227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_124
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc279bb82be80394aaef91f9f630c396
+      internalID: -1967437768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_125
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2341c5ea44b405748981ca20772706d5
+      internalID: 885625953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_126
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bea5a7f8b04c846b3a2ae0fe844483
+      internalID: -524884471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_127
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095d3be18976d094da89a10cbebd3235
+      internalID: -767596374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_128
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bb14730ad3849418cb48d0a058b305
+      internalID: 697621108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_129
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d0b7ec59a6cb547bbbb3a1f816c691
+      internalID: 17180362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_130
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1300
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c9f7d53a4bb1e48a3ba50187f49fdd
+      internalID: -592293895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_131
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f330e2492ba0f644690c50f1e2fb6dfd
+      internalID: 1197176817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_132
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a546bf33147b1aa4db6da73106768606
+      internalID: -255165342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_133
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae6f0a97cf0cb145ba903d27a2bc1c3
+      internalID: 1538781551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_134
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258cf08f11c8b8f43ae7b7d5f6fdd367
+      internalID: 1057941059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_135
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0972b9d4c97379043bf213aff53a3f03
+      internalID: 1065252860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_136
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5d90b072bc5094ba2cd1f4566ca45f
+      internalID: -1771788733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_137
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a82d2f7d161a446b8ed1d407c496c0
+      internalID: -85398638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_138
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fa9b7c6fb0f3547a068baef56155e3
+      internalID: 682736846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_139
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2f1bfb4f195064c8c13ef18476afb5
+      internalID: -2118866632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_140
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5350cda77da53d41af9f189190a22c9
+      internalID: -903107823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_141
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993ae72d6d8449b42987ee4c02a4eb08
+      internalID: -1574679167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_142
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2646843b2c7ca7478920fc8827d988d
+      internalID: 2052922187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_143
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1100
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb08696d1f8df59479b8e848da82fa6c
+      internalID: -63170432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_144
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5730b79022e2044a7a3b25552e0b4b
+      internalID: -1701815103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_145
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9fc89de8ac2fa4bbc736927caf57df
+      internalID: 1777149247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_146
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc86202e52bcfb498e6a9433a21e395
+      internalID: 769238244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_147
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36280df71a3ea8445be36fb2d55af62e
+      internalID: -987671486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_148
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1ddaa10d66eb34a8e5a816cea80045
+      internalID: -1689444232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_149
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec25713d7b31a7c4bb2544dc0ffe0535
+      internalID: -1753534578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_150
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcee0ef0747b7e34fbd658c63853b0c8
+      internalID: 167754572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_151
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2c28e0347440f468bf5247d2a90670
+      internalID: -646075788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_152
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46439ece4af74d24094a18a7d20b013c
+      internalID: -1379055411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_153
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 900
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca641fca0593174bbe37a8b3ff3b747
+      internalID: 886714104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_154
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58aee95b4814ff48bedd27766224e32
+      internalID: -1503376897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_155
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b32c1243cfb7a458cf04f1dcc3275a
+      internalID: 223149965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_156
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa64bc9cb7964643891877b7c09644a
+      internalID: -1846728224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_157
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746450e04e924ae439a24e5a3cfd42dc
+      internalID: -1804204381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_158
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac88b1cb297b91a48bf63855eb3bd2c7
+      internalID: 1718334134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_159
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba60f4503287d1b49a401cd00b13077e
+      internalID: -1039450495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_160
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1d6814f12d844b9c72984ee3e05d2
+      internalID: 1962434486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_161
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437762d5360e3c941a96d538b0137b3d
+      internalID: -456828167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_162
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec623298be0b19d4d8893ef7a197b433
+      internalID: 576694142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_163
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed4593a7d51a5c40b9352b24a63d747
+      internalID: -1296544634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_164
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 700
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90263fabae3d9f042998e04d33aacc1e
+      internalID: 625347390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_165
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835f2a186ee98df44aff47155364c349
+      internalID: -1095803473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_166
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa557570c5008e248b6885446624657b
+      internalID: -1731039639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_167
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121408f2231ae4942b82d6e4dc874338
+      internalID: -1018588576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_168
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afafbeb8748196e4a8a9f474321953ec
+      internalID: -1624664676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_169
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4a4ed7d88c72946ab3c8c09969703e
+      internalID: 1285896373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete black_170
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 500
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de59d5012092d7c45b152a2b36787285
+      internalID: -1546455663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tile pallete black_0: 445680481
+      Tile pallete black_1: -1345782305
+      Tile pallete black_10: 629583328
+      Tile pallete black_100: -167879770
+      Tile pallete black_101: -56888987
+      Tile pallete black_102: -1139050361
+      Tile pallete black_103: 501885503
+      Tile pallete black_104: -1498667621
+      Tile pallete black_105: -1195111420
+      Tile pallete black_106: 1950109968
+      Tile pallete black_107: 1799479064
+      Tile pallete black_108: 1350151601
+      Tile pallete black_109: -482299394
+      Tile pallete black_11: 1060837375
+      Tile pallete black_110: 1357530160
+      Tile pallete black_111: -184482691
+      Tile pallete black_112: 613712698
+      Tile pallete black_113: -1435482554
+      Tile pallete black_114: -373477679
+      Tile pallete black_115: 1744340120
+      Tile pallete black_116: 1207591631
+      Tile pallete black_117: 828511892
+      Tile pallete black_118: 2136176245
+      Tile pallete black_119: -1139153632
+      Tile pallete black_12: 1797090412
+      Tile pallete black_120: -268653256
+      Tile pallete black_121: -851762128
+      Tile pallete black_122: -944538941
+      Tile pallete black_123: 1343084227
+      Tile pallete black_124: -1967437768
+      Tile pallete black_125: 885625953
+      Tile pallete black_126: -524884471
+      Tile pallete black_127: -767596374
+      Tile pallete black_128: 697621108
+      Tile pallete black_129: 17180362
+      Tile pallete black_13: -124131571
+      Tile pallete black_130: -592293895
+      Tile pallete black_131: 1197176817
+      Tile pallete black_132: -255165342
+      Tile pallete black_133: 1538781551
+      Tile pallete black_134: 1057941059
+      Tile pallete black_135: 1065252860
+      Tile pallete black_136: -1771788733
+      Tile pallete black_137: -85398638
+      Tile pallete black_138: 682736846
+      Tile pallete black_139: -2118866632
+      Tile pallete black_14: 93613988
+      Tile pallete black_140: -903107823
+      Tile pallete black_141: -1574679167
+      Tile pallete black_142: 2052922187
+      Tile pallete black_143: -63170432
+      Tile pallete black_144: -1701815103
+      Tile pallete black_145: 1777149247
+      Tile pallete black_146: 769238244
+      Tile pallete black_147: -987671486
+      Tile pallete black_148: -1689444232
+      Tile pallete black_149: -1753534578
+      Tile pallete black_15: 265538727
+      Tile pallete black_150: 167754572
+      Tile pallete black_151: -646075788
+      Tile pallete black_152: -1379055411
+      Tile pallete black_153: 886714104
+      Tile pallete black_154: -1503376897
+      Tile pallete black_155: 223149965
+      Tile pallete black_156: -1846728224
+      Tile pallete black_157: -1804204381
+      Tile pallete black_158: 1718334134
+      Tile pallete black_159: -1039450495
+      Tile pallete black_16: 1798099503
+      Tile pallete black_160: 1962434486
+      Tile pallete black_161: -456828167
+      Tile pallete black_162: 576694142
+      Tile pallete black_163: -1296544634
+      Tile pallete black_164: 625347390
+      Tile pallete black_165: -1095803473
+      Tile pallete black_166: -1731039639
+      Tile pallete black_167: -1018588576
+      Tile pallete black_168: -1624664676
+      Tile pallete black_169: 1285896373
+      Tile pallete black_17: 1060070448
+      Tile pallete black_170: -1546455663
+      Tile pallete black_18: -1368229378
+      Tile pallete black_19: 1391389601
+      Tile pallete black_2: -1239237837
+      Tile pallete black_20: -440802762
+      Tile pallete black_21: -894191753
+      Tile pallete black_22: -57325441
+      Tile pallete black_23: -942441292
+      Tile pallete black_24: 25860530
+      Tile pallete black_25: -878116294
+      Tile pallete black_26: 1160544348
+      Tile pallete black_27: -1273827338
+      Tile pallete black_28: -363748557
+      Tile pallete black_29: -182133042
+      Tile pallete black_3: 475399772
+      Tile pallete black_30: 1658323380
+      Tile pallete black_31: 644029326
+      Tile pallete black_32: -1616444915
+      Tile pallete black_33: 1321552724
+      Tile pallete black_34: -2051764112
+      Tile pallete black_35: 792112319
+      Tile pallete black_36: 641001444
+      Tile pallete black_37: -459185441
+      Tile pallete black_38: 803867489
+      Tile pallete black_39: 1728077114
+      Tile pallete black_4: 296879444
+      Tile pallete black_40: -1329355202
+      Tile pallete black_41: -1301006444
+      Tile pallete black_42: 221116421
+      Tile pallete black_43: 1260124293
+      Tile pallete black_44: -494474056
+      Tile pallete black_45: -1065256450
+      Tile pallete black_46: 2132244690
+      Tile pallete black_47: 1140018478
+      Tile pallete black_48: -2069078214
+      Tile pallete black_49: -896879894
+      Tile pallete black_5: 559941175
+      Tile pallete black_50: 518758089
+      Tile pallete black_51: 1456677538
+      Tile pallete black_52: 1324325630
+      Tile pallete black_53: -1344991031
+      Tile pallete black_54: 1096596991
+      Tile pallete black_55: -1838222832
+      Tile pallete black_56: 832457399
+      Tile pallete black_57: -311656660
+      Tile pallete black_58: -1119895321
+      Tile pallete black_59: -92297180
+      Tile pallete black_6: -1955959409
+      Tile pallete black_60: -672185105
+      Tile pallete black_61: 1290404147
+      Tile pallete black_62: -588192680
+      Tile pallete black_63: -2089400927
+      Tile pallete black_64: 2025830261
+      Tile pallete black_65: -175985023
+      Tile pallete black_66: 1572075297
+      Tile pallete black_67: -1469127359
+      Tile pallete black_68: -624188368
+      Tile pallete black_69: -1741273374
+      Tile pallete black_7: 594843513
+      Tile pallete black_70: 69881941
+      Tile pallete black_71: 1557841071
+      Tile pallete black_72: -738593804
+      Tile pallete black_73: 940793012
+      Tile pallete black_74: -1878480306
+      Tile pallete black_75: 296357905
+      Tile pallete black_76: -466246568
+      Tile pallete black_77: 1755592957
+      Tile pallete black_78: -2015883120
+      Tile pallete black_79: 49915194
+      Tile pallete black_8: 313454603
+      Tile pallete black_80: 1075463530
+      Tile pallete black_81: 1913868511
+      Tile pallete black_82: 1762078536
+      Tile pallete black_83: -285324265
+      Tile pallete black_84: -1806869407
+      Tile pallete black_85: 1468521219
+      Tile pallete black_86: -1970994034
+      Tile pallete black_87: -995869104
+      Tile pallete black_88: -247333071
+      Tile pallete black_89: 634497569
+      Tile pallete black_9: -1757727814
+      Tile pallete black_90: -2028495345
+      Tile pallete black_91: 1759605749
+      Tile pallete black_92: 1657684818
+      Tile pallete black_93: 663002960
+      Tile pallete black_94: -1310776965
+      Tile pallete black_95: 576994247
+      Tile pallete black_96: 1548280940
+      Tile pallete black_97: 280459738
+      Tile pallete black_98: -1219871117
+      Tile pallete black_99: -750430956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

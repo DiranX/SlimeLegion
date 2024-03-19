@@ -10,9 +10,9 @@ public class SlimeMovement : MonoBehaviour
 
     public float runSpeed;
     public float originalSpeed;
+    public float horizontal;
     private float horizontalMove = 0f;
-    private float horizontal;
-    private bool isFacingRight = true;
+    public bool isFacingRight = true;
     private Rigidbody2D rb;
     public Animator animator;
 
@@ -27,9 +27,9 @@ public class SlimeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator = GetComponentInChildren<Animator>();
         if (PossesEnemy.instance.gameObject.active == false)
         {
-            animator = GetComponentInChildren<Animator>();
             //GetComponent<SlimeMovement>().enabled = false;
             PossesEnemy.instance.isPosses = false;
             PossesEnemy.instance.enemyisDead = false;
@@ -44,11 +44,8 @@ public class SlimeMovement : MonoBehaviour
         //Player Move
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
         Flip();
-        if (SlimeBehavior.instance.isSlide == false || SkeletonBehavior.instance.isSlide == false)
-        {
-            //HorizontalMove();
-        }
     }
     public void HorizontalMove()
     {

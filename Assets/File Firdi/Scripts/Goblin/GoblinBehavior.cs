@@ -5,13 +5,25 @@ using UnityEngine;
 public class GoblinBehavior : MonoBehaviour
 {
     public static GoblinBehavior instance;
-
+    [Header("Jump")]
     public float jumpingPower;
     public Animator animator;
     public Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-
+    [Header("Wall Slide")]
+    public bool isWallSliding;
+    private float wallSlidingSpeed = 2;
+    public Transform wallCheck;
+    public LayerMask wallLayer;
+    [Header("Wall Jump")]
+    private bool isWallJumping;
+    private float wallJumpingDirection;
+    public float wallJumpingTime;
+    public float wallJumpingDuration;
+    private float wallJumpingCounter;
+    private Vector2 wallJumpingPower = new Vector2(14, 16);
+    [Header("Attack")]
     public Transform attackPoint;
     public float attackRange;
     public bool isAttacking = false;
@@ -37,6 +49,15 @@ public class GoblinBehavior : MonoBehaviour
 
             animator.SetBool("isJumping", true);
         }
+
+        if (!isWallJumping)
+        {
+            //SlimeMovement.instance.Flip();
+            SlimeMovement.instance.HorizontalMove();
+        }
+
+        WallSlide();
+        WallJump();
     }
     private bool IsGrounded()
     {
@@ -66,5 +87,60 @@ public class GoblinBehavior : MonoBehaviour
         }
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    private bool IsWalled()
+    {
+        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+    }
+
+    private void WallSlide()
+    {
+        if (IsWalled() && !IsGrounded() && SlimeMovement.instance.horizontal != 0f)
+        {
+            isWallSliding = true;
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+    }
+
+    private void WallJump()
+    {
+        if (isWallSliding)
+        {
+            isWallJumping = false;
+            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingCounter = wallJumpingTime;
+
+            CancelInvoke(nameof(StopWallJumping));
+        }
+        else
+        {
+            wallJumpingCounter -= Time.deltaTime;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space) && wallJumpingCounter > 0f)
+        {
+            isWallJumping = true;
+            rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
+            wallJumpingCounter = 0f;
+
+            if(transform.localScale.x != wallJumpingDirection)
+            {
+                SlimeMovement.instance.isFacingRight = !SlimeMovement.instance.isFacingRight;
+                Vector3 localScale = transform.localScale;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            }
+        }
+
+        Invoke(nameof(StopWallJumping), wallJumpingDuration);
+    }
+
+    private void StopWallJumping()
+    {
+        isWallJumping = false;
     }
 }

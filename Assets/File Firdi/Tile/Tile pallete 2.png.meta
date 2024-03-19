@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 700
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,6 +106,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,7 +131,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +152,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +173,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +194,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +215,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +236,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +257,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,7 +278,7 @@ TextureImporter:
         width: 700
         height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +291,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tile pallete 2_11
+      name: Tile pallete 2_5
       rect:
         serializedVersion: 2
-        x: 2799
-        y: 2094
-        width: 695
+        x: 2801
+        y: 701
+        width: 693
         height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,29 +305,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7daccb1b1a001e4d86c7d4a8498b7e8
-      internalID: 103529996
+      spriteID: 9bc338cf1e27cc640a17e7b2ceaf7220
+      internalID: -1666683033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tile pallete 2_12
+      name: Tile pallete 2_6
       rect:
         serializedVersion: 2
-        x: 2793
-        y: 690
-        width: 701
-        height: 704
+        x: 2802
+        y: 2094
+        width: 692
+        height: 700
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 9, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fdf7c23210827843be4e807a41d6e5e
-      internalID: 1130899566
+      spriteID: 7b7acd74713e98240b029ae8e6ba8f48
+      internalID: 828931340
       vertices: []
       indices: 
       edges: []
@@ -333,8 +346,6 @@ TextureImporter:
       Tile pallete 2_0: -1816400704
       Tile pallete 2_1: 1012040894
       Tile pallete 2_10: 619259546
-      Tile pallete 2_11: 1145621752
-      Tile pallete 2_12: 103529996
       Tile pallete 2_2: -804978847
       Tile pallete 2_3: 256231018
       Tile pallete 2_4: 987965167
