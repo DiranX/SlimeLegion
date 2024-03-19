@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 700
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,8 +69,8 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -108,7 +108,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Tile pallete 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2094
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e59a0348a87ab14facc56bb34e12c86
+      internalID: -1816400704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_1
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2094
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77411ce434b2564b8b6b2b2e64485f2
+      internalID: 1012040894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_2
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2094
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39fbdd50cb819a49a00c3f2ddbac3a0
+      internalID: -804978847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_3
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2094
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadac53b26f5bbf439bb14d8cef25016
+      internalID: 256231018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 694
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555d21d1dfc0dd748b51cb385f22d690
+      internalID: -803912895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_8
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 694
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c4e3b108b5a2d489c311c4f0ca12fe
+      internalID: -1854548372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_9
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 694
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc7d5fa1d384c549ab69f912d1ceae7
+      internalID: -204565131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_10
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 694
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4454ee82022e994f90299804e473753
+      internalID: 619259546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_11
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 2094
+        width: 695
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7daccb1b1a001e4d86c7d4a8498b7e8
+      internalID: 103529996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile pallete 2_12
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 690
+        width: 701
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 9, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdf7c23210827843be4e807a41d6e5e
+      internalID: 1130899566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +329,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tile pallete 2_0: -1816400704
+      Tile pallete 2_1: 1012040894
+      Tile pallete 2_10: 619259546
+      Tile pallete 2_11: 1145621752
+      Tile pallete 2_12: 103529996
+      Tile pallete 2_2: -804978847
+      Tile pallete 2_3: 256231018
+      Tile pallete 2_4: 987965167
+      Tile pallete 2_5: -1666683033
+      Tile pallete 2_6: 828931340
+      Tile pallete 2_7: -803912895
+      Tile pallete 2_8: -1854548372
+      Tile pallete 2_9: -204565131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
