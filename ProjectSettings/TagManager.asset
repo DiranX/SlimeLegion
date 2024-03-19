@@ -15,9 +15,9 @@ TagManager:
   - Ground
   - Enemy
   - Tembok
-  - 
-  - 
-  - 
+  - LightBack
+  - LightFront
+  - Foreground
   - 
   - 
   - 
