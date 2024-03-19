@@ -13,7 +13,7 @@ public class GoblinBehavior : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [Header("Wall Slide")]
     public bool isWallSliding;
-    public float wallSlidingSpeed;
+    private float wallSlidingSpeed = 2;
     public Transform wallCheck;
     public LayerMask wallLayer;
     [Header("Wall Jump")]
@@ -22,7 +22,7 @@ public class GoblinBehavior : MonoBehaviour
     public float wallJumpingTime;
     public float wallJumpingDuration;
     private float wallJumpingCounter;
-    private Vector2 wallJumpingPower = new Vector2(8, 16);
+    private Vector2 wallJumpingPower = new Vector2(14, 16);
     [Header("Attack")]
     public Transform attackPoint;
     public float attackRange;
@@ -52,7 +52,7 @@ public class GoblinBehavior : MonoBehaviour
 
         if (!isWallJumping)
         {
-            SlimeMovement.instance.Flip();
+            //SlimeMovement.instance.Flip();
             SlimeMovement.instance.HorizontalMove();
         }
 
@@ -98,7 +98,7 @@ public class GoblinBehavior : MonoBehaviour
         if (IsWalled() && !IsGrounded() && SlimeMovement.instance.horizontal != 0f)
         {
             isWallSliding = true;
-            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, wallSlidingSpeed, float.MaxValue));
         }
         else
         {

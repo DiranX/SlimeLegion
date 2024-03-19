@@ -27,9 +27,9 @@ public class SlimeMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator = GetComponentInChildren<Animator>();
         if (PossesEnemy.instance.gameObject.active == false)
         {
-            animator = GetComponentInChildren<Animator>();
             //GetComponent<SlimeMovement>().enabled = false;
             PossesEnemy.instance.isPosses = false;
             PossesEnemy.instance.enemyisDead = false;
@@ -44,6 +44,8 @@ public class SlimeMovement : MonoBehaviour
         //Player Move
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+        Flip();
     }
     public void HorizontalMove()
     {
