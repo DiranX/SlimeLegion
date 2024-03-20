@@ -77,6 +77,11 @@ public class GoblinBehavior : MonoBehaviour
             {
                 enemy.GetComponent<EnemyController>().TakeDamage(goblinDamage);
             }
+
+            foreach(Collider2D skeleton in hitEnemies)
+            {
+                skeleton.GetComponent<AISkeleton>().TakeDamage(goblinDamage);
+            }
         }
         SlimeMovement.instance.HorizontalMove();
     }
