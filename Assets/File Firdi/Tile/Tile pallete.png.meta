@@ -1667,9 +1667,9 @@ TextureImporter:
       name: Tile pallete_132
       rect:
         serializedVersion: 2
-        x: 400
+        x: 401
         y: 1100
-        width: 200
+        width: 199
         height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1711,7 +1711,7 @@ TextureImporter:
         serializedVersion: 2
         x: 800
         y: 1100
-        width: 200
+        width: 199
         height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1856,9 +1856,9 @@ TextureImporter:
       name: Tile pallete_145
       rect:
         serializedVersion: 2
-        x: 400
+        x: 401
         y: 900
-        width: 200
+        width: 199
         height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1900,7 +1900,7 @@ TextureImporter:
         serializedVersion: 2
         x: 800
         y: 900
-        width: 200
+        width: 199
         height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1919,9 +1919,9 @@ TextureImporter:
       name: Tile pallete_155
       rect:
         serializedVersion: 2
-        x: 400
+        x: 401
         y: 703
-        width: 200
+        width: 199
         height: 197
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1963,7 +1963,7 @@ TextureImporter:
         serializedVersion: 2
         x: 800
         y: 703
-        width: 200
+        width: 199
         height: 197
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
