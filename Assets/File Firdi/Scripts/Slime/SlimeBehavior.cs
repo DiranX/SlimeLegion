@@ -68,11 +68,11 @@ public class SlimeBehavior : MonoBehaviour
         canSlide = false;
         animator.SetBool("isSlide", true);
         Physics2D.IgnoreLayerCollision(3, 8, true);
-        //Physics2D.IgnoreLayerCollision(3, 8, true);
+        Physics2D.IgnoreLayerCollision(3, 7, true);
         rb.velocity = new Vector2(SlimeMovement.instance.transform.localScale.x * slideSpeed, 0);
         yield return new WaitForSeconds(slideTime);
         Physics2D.IgnoreLayerCollision(3, 8, false);
-        //Physics2D.IgnoreLayerCollision(3, 8, false);
+        Physics2D.IgnoreLayerCollision(3, 7, false);
         isSlide = false;
         yield return new WaitForSeconds(slideCoolDown);
         canSlide = true;

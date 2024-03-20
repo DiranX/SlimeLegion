@@ -68,12 +68,12 @@ public class EnemyController : MonoBehaviour
         Vector2 scale = transform.localScale;
         if (playerPos.position.x > transform.position.x)
         {
-            yield return new WaitForSeconds(.1f);
+            yield return new WaitForSeconds(.5f);
             scale.x = Mathf.Abs(scale.x) * (flip ? -1 : 1);
         }
         else
         {
-            yield return new WaitForSeconds(.1f);
+            yield return new WaitForSeconds(.5f);
             scale.x = Mathf.Abs(scale.x) * -1 * (flip ? -1 : 1);
 
         }
