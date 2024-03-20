@@ -39,35 +39,6 @@ public class EnemyController : MonoBehaviour
         //Physics2D.IgnoreLayerCollision(7, 7);
         DetectPlayer();
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //if (collision.gameObject.CompareTag("Detect"))
-        //{
-        //    GrapplingHook.instance.Target(gameObject);
-        //    Vector2 direction = playerPos.position - transform.position;
-        //    rb.velocity = new Vector2(direction.x * hookSpeed, direction.y * hookSpeed) * Time.deltaTime;
-        //    Vector2 newPos = Vector2.MoveTowards(transform.position, GrapplingHook.instance.lr.transform.position, hookSpeed * Time.deltaTime);
-        //    transform.position = newPos;
-        //    GrapplingHook.instance.linePosition.transform.position = new Vector2(1000, 1000);
-        //}
-        //if (collision.gameObject.CompareTag("Bullet"))
-        //{
-        //    TakeDamage(MeleeMechanic.instance.gunDamage);
-        //}
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Enemy"))
-        //{
-        //    GrapplingHook.instance.enemyisGrappled = false;
-        //}
-        //if (collision.gameObject.CompareTag("Bullet"))
-        //{
-        //    TakeDamage(MeleeMechanic.instance.gunDamage);
-        //}
-    }
     void DetectPlayer()
     {
         Vector2 Direction = playerPos.position - transform.position;
@@ -76,13 +47,13 @@ public class EnemyController : MonoBehaviour
 
         if (DetectPlayer.collider == null)
         {
-            //anim.SetFloat("Walk", Mathf.Abs(0));
+            anim.SetFloat("Walk", Mathf.Abs(0));
         }
 
         foreach (Collider2D player in enemyDetect)
         {
             rb.AddForce(Direction * walkSpeed * Time.deltaTime);
-            //anim.SetFloat("Walk", Mathf.Abs(walkSpeed));
+            anim.SetFloat("Walk", Mathf.Abs(walkSpeed));
         }
     }
     private void OnDrawGizmosSelected()
@@ -112,7 +83,7 @@ public class EnemyController : MonoBehaviour
     public void TakeDamage(float damage)
     {
         Health -= damage;
-        //anim.SetTrigger("Hurt");
+        anim.SetTrigger("Hurt");
 
         if(Health <= 0)
         {
@@ -123,12 +94,10 @@ public class EnemyController : MonoBehaviour
     }
     void Die()
     {
-        //anim.SetBool("isDead", true);
+        anim.SetBool("isDead", true);
         enemySound.PlayOneShot(die, volume);
-        //SceneManagement.instance.KillCount(1);
-        //GrapplingHook.instance.enemyisGrappled = false;
         this.enabled = false;
-        GetComponent<Collider2D>().enabled = false;
+        //GetComponent<Collider2D>().enabled = false;
         rb.gravityScale = 1;
         Debug.Log("Musuh Mati");
     }
