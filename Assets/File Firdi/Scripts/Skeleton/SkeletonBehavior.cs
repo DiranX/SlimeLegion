@@ -14,15 +14,33 @@ public class SkeletonBehavior : MonoBehaviour
     public float slideCoolDown;
     public bool isSlide;
     public bool canSlide = true;
+    [Header("Shoot")]
+    public float bulletForce;
+    private int ammoAmmount;
+    public bool isShoot;
+    public Transform shootingPoint;
+    public GameObject bulletPrefab;
+    public GameObject[] ammo;
+
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
+
+        //for (int i = 0; i <= 5; i++)
+        //{
+        //    ammo[i].gameObject.SetActive(true); ;
+        //}
+        //ammoAmmount = 6;
     }
 
     // Update is called once per frame
     void Update()
     {
+        ShootInput();
+
         if (Input.GetKeyDown(KeyCode.LeftShift) && canSlide)
         {
             StartCoroutine(BackDash());
@@ -34,6 +52,18 @@ public class SkeletonBehavior : MonoBehaviour
         }
 
         SlimeMovement.instance.Flip();
+    }
+    public void ShootInput()
+    {
+        if (Input.GetMouseButtonDown(0) && !isShoot)
+        {
+            isShoot = true;
+            GameObject bullet = Instantiate(bulletPrefab, shootingPoint.position, shootingPoint.rotation);
+            bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(SlimeMovement.instance.transform.localScale.x, 0).normalized * bulletForce;
+            //playerAudio.PlayOneShot(gunShoot, PlayerMove.instance.volume);
+            //ammoAmmount -= 1;
+            //ammo[ammoAmmount].gameObject.SetActive(false);
+        }
     }
     public IEnumerator BackDash()
     {

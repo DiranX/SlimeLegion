@@ -24,6 +24,7 @@ public class GoblinBehavior : MonoBehaviour
     private float wallJumpingCounter;
     private Vector2 wallJumpingPower = new Vector2(14, 16);
     [Header("Attack")]
+    public float goblinDamage;
     public Transform attackPoint;
     public float attackRange;
     public bool isAttacking = false;
@@ -74,7 +75,7 @@ public class GoblinBehavior : MonoBehaviour
 
             foreach (Collider2D enemy in hitEnemies)
             {
-                //enemy.GetComponent<EnemyController>().TakeDamage(swordDamage);
+                enemy.GetComponent<EnemyController>().TakeDamage(goblinDamage);
             }
         }
         SlimeMovement.instance.HorizontalMove();
