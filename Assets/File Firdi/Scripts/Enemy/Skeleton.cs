@@ -46,7 +46,7 @@ public class Skeleton : MonoBehaviour
         if (isShootings == true)
         {
             GameObject arrow = Instantiate(panah, attackPoint.transform.position, attackPoint.transform.rotation);
-            arrow.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x * panahSpeed, 0)* Time.deltaTime;
+            arrow.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x * panahSpeed, 0);
         }
     }
 

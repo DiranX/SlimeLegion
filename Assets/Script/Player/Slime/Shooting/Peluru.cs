@@ -6,7 +6,7 @@ public class Peluru : MonoBehaviour
 {
     public Transform pointPeluru;
     public GameObject peluruPrefab;
-    public float kecepatanPeluru = 20f;
+    public float kecepatanPeluru;
     
 
 
@@ -22,8 +22,8 @@ public class Peluru : MonoBehaviour
     {
         GameObject bullet = Instantiate(peluruPrefab, pointPeluru.position, pointPeluru.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        Vector2 arah = new Vector2(SlimeMovement.instance.transform.localScale.x, 0.4f);
-        rb.AddForce(arah * kecepatanPeluru * Time.deltaTime, ForceMode2D.Impulse);
+        Vector2 arah = new Vector2(SlimeMovement.instance.transform.localScale.x * kecepatanPeluru, 8f);
+        rb.AddForce(arah , ForceMode2D.Impulse);
     }
 
 }

@@ -13,7 +13,8 @@ public class PlayerStatus : MonoBehaviour
     ////public float staminaCoolDown;
     public bool isDie;
     //public Image staminaUi;
-    public Image HealthaUi;
+    public Image SlimeHealthaUi;
+    public Image HealthUiPlus;
     public Collider2D collider;
     //public GameObject gameOverUi;
     //public AudioClip hurt;
@@ -39,7 +40,8 @@ public class PlayerStatus : MonoBehaviour
     {
         Die();
         anim = GetComponentInChildren<Animator>();
-        //HealthaUi.fillAmount = playerHealth / 250;
+        SlimeHealthaUi.fillAmount = playerHealth / 50;
+        HealthUiPlus.fillAmount = corpseHealthValue / 100;
         //corpseHealthValue += playerHealth;
         //StartCoroutine(StaminaCharge());
         //staminaUi.fillAmount = playerStamina / 100;

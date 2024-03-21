@@ -27,6 +27,11 @@ public class Zombie : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(EnemyController.instance.Health <= 0)
+        {
+            return;
+        }
+
         Attacking();
 
         if(isJump != true)

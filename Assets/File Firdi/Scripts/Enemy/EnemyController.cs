@@ -29,6 +29,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Health <= 0)
+        {
+            return;
+        }
+
         enemySound = GetComponent<AudioSource>();
         StartCoroutine(Flip());
         //if (PlayerStatus.instance.isDie)
@@ -82,8 +87,11 @@ public class EnemyController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Health -= damage;
-        anim.SetTrigger("Hurt");
+        if(Health > 0)
+        {
+            Health -= damage;
+            anim.SetTrigger("Hurt");
+        }
 
         if(Health <= 0)
         {
@@ -98,7 +106,7 @@ public class EnemyController : MonoBehaviour
         enemySound.PlayOneShot(die, volume);
         this.enabled = false;
         //GetComponent<Collider2D>().enabled = false;
-        rb.gravityScale = 1;
+        //rb.gravityScale = 1;
         Debug.Log("Musuh Mati");
     }
 }

@@ -28,6 +28,10 @@ public class AISkeleton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Health <= 0)
+        {
+            return;
+        }
 
         enemySound = GetComponent<AudioSource>();
         StartCoroutine(DetectPlayer());
@@ -100,7 +104,7 @@ public class AISkeleton : MonoBehaviour
         enemySound.PlayOneShot(die, volume);
         this.enabled = false;
         //GetComponent<Collider2D>().enabled = false;
-        rb.gravityScale = 1;
+        //rb.gravityScale = 1;
         Debug.Log("Musuh Mati");
     }
 }

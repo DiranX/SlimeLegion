@@ -7,8 +7,9 @@ public class BulletSkeleton : MonoBehaviour
     //private GameObject player;
     //private Rigidbody2D rb;
 
-    public float arrowDamage;
     public float DamagingPlayer;
+    public bool flip;
+    private SpriteRenderer sprite;
 
     //public float force;
     //public float waktu;
@@ -33,24 +34,34 @@ public class BulletSkeleton : MonoBehaviour
         //waktu += Time.deltaTime;
         //if (waktu > 10)
         //{
-            //Destroy(gameObject);
+        //Destroy(gameObject);
         //}
+        Flip();
+        sprite = GetComponent<SpriteRenderer>();
+    }
+    //public Transform playerPos;
+
+    void Flip()
+    {
+        Vector2 scale = transform.localScale;
+        if (SlimeMovement.instance.transform.position.x <= transform.position.x)
+        {
+            sprite.flipX = false;
+        }
+        else if (SlimeMovement.instance.transform.position.x >= transform.position.x)
+        {
+            sprite.flipX = true;
+        }
+        transform.localScale = scale;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(this.gameObject);
-            collision.gameObject.GetComponent<EnemyController>().TakeDamage(arrowDamage);
-        }
-
         if (collision.gameObject.CompareTag("Player") && PlayerStatus.instance.playerHealth > 0)
         {
             PlayerStatus.instance.HealthBar(DamagingPlayer);
             Destroy(this.gameObject);
         }
-
         if (collision.gameObject)
         {
             Destroy(gameObject);

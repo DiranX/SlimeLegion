@@ -63,7 +63,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449046591717149012}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.13, y: -1.82, z: 0}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
@@ -182,9 +182,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 3
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 5
+  m_LinearDrag: 5
+  m_AngularDrag: 5
   m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -259,7 +259,7 @@ MonoBehaviour:
   attackRange: 14.8
   anim: {fileID: 1242365592289332284}
   attackPoint: {fileID: 3294989216412214849}
-  panah: {fileID: 719443814167822045, guid: 14f925233946a3e4b9480b34c7cb51d7, type: 3}
+  panah: {fileID: 719443814167822045, guid: e1b469d8f04a5854b955f44d0cbbac2e, type: 3}
   panahSpeed: 10
   isShootings: 0
   playerMask:
@@ -285,7 +285,7 @@ MonoBehaviour:
   playerPos: {fileID: 0}
   playerlayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   anim: {fileID: 1242365592289332284}
   hurt: {fileID: 0}
   die: {fileID: 0}
@@ -298,14 +298,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449046591717149012}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05f9e2e578077ad4c94e91952f33266d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   corpseHealthValue: 0
   isdead: 0
-  iD: 2
+  iD: 1
 --- !u!1 &3469995639340293855
 GameObject:
   m_ObjectHideFlags: 0
