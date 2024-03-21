@@ -72,7 +72,7 @@ public class SkeletonBehavior : MonoBehaviour
         canSlide = false;
         //float gravity = rb.gravityScale;
         //rb.gravityScale = 0;
-        //animator.SetBool("isSlide", true);
+        animator.SetBool("isBack", true);
         //Physics2D.IgnoreLayerCollision(3, 7, true);
         //Physics2D.IgnoreLayerCollision(3, 8, true);
         rb.AddForce(arah, ForceMode2D.Impulse);
@@ -81,8 +81,8 @@ public class SkeletonBehavior : MonoBehaviour
         //Physics2D.IgnoreLayerCollision(3, 8, false);
         //rb.gravityScale = gravity;
         isSlide = false;
+        animator.SetBool("isBack", false);
         yield return new WaitForSeconds(slideCoolDown);
         canSlide = true;
-        //animator.SetBool("isSlide", false);
     }
 }

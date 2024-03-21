@@ -13,7 +13,7 @@ public class GoblinBehavior : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [Header("Wall Slide")]
     public bool isWallSliding;
-    private float wallSlidingSpeed = 2;
+    private float wallSlidingSpeed = 10;
     public Transform wallCheck;
     public LayerMask wallLayer;
     [Header("Wall Jump")]
@@ -22,7 +22,8 @@ public class GoblinBehavior : MonoBehaviour
     public float wallJumpingTime;
     public float wallJumpingDuration;
     private float wallJumpingCounter;
-    private Vector2 wallJumpingPower = new Vector2(14, 16);
+    private Vector2 wallJumpingPower = new Vector2(2, 20);
+    public bool isFacingRight = true;
     [Header("Attack")]
     public float goblinDamage;
     public Transform attackPoint;
@@ -78,21 +79,7 @@ public class GoblinBehavior : MonoBehaviour
                 enemy.GetComponent<EnemyController>().TakeDamage(goblinDamage);
             }
 
-            foreach(Collider2D skeleton in hitEnemies)
-            {
-                skeleton.GetComponent<AISkeleton>().TakeDamage(goblinDamage);
-            }
         }
-        SlimeMovement.instance.HorizontalMove();
-    }
-    private void OnDrawGizmosSelected()
-    {
-        if (attackPoint == null)
-        {
-            return;
-        }
-
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
     private bool IsWalled()
     {
@@ -104,11 +91,13 @@ public class GoblinBehavior : MonoBehaviour
         if (IsWalled() && !IsGrounded() && SlimeMovement.instance.horizontal != 0f)
         {
             isWallSliding = true;
-            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, wallSlidingSpeed, float.MaxValue));
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            animator.SetBool("isWalled", true);
         }
         else
         {
             isWallSliding = false;
+            animator.SetBool("isWalled", false);
         }
     }
 
@@ -117,7 +106,7 @@ public class GoblinBehavior : MonoBehaviour
         if (isWallSliding)
         {
             isWallJumping = false;
-            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingDirection = -SlimeMovement.instance.transform.localScale.x;
             wallJumpingCounter = wallJumpingTime;
 
             CancelInvoke(nameof(StopWallJumping));
@@ -135,18 +124,23 @@ public class GoblinBehavior : MonoBehaviour
 
             if(transform.localScale.x != wallJumpingDirection)
             {
-                SlimeMovement.instance.isFacingRight = !SlimeMovement.instance.isFacingRight;
-                Vector3 localScale = transform.localScale;
-                localScale.x *= -1f;
-                transform.localScale = localScale;
+                SlimeMovement.instance.Flip();
             }
         }
 
         Invoke(nameof(StopWallJumping), wallJumpingDuration);
     }
-
     private void StopWallJumping()
     {
         isWallJumping = false;
+    }
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

@@ -30,7 +30,8 @@ public class AISkeleton : MonoBehaviour
     {
 
         enemySound = GetComponent<AudioSource>();
-        DetectPlayer();
+        StartCoroutine(DetectPlayer());
+
         StartCoroutine(Flip());
         //if (PlayerStatus.instance.isDie)
         //{
@@ -39,7 +40,7 @@ public class AISkeleton : MonoBehaviour
         //}
         //Physics2D.IgnoreLayerCollision(7, 7);
     }
-    void DetectPlayer()
+    IEnumerator DetectPlayer()
     {
         //Vector2 Direction = (playerPos.position + transform.position)/2;
         Collider2D[] enemyDetect = Physics2D.OverlapCircleAll(detect.transform.position, detectRange, playerlayer);
@@ -47,11 +48,13 @@ public class AISkeleton : MonoBehaviour
 
         if (DetectPlayer.collider == null)
         {
-        }
 
+        }
+        yield return new WaitForSeconds(0.5f);
         foreach (Collider2D player in enemyDetect)
         {
-            rb.velocity = new Vector2(transform.localScale.x * -walkSpeed, 8);
+            rb.velocity = new Vector2(transform.localScale.x * -walkSpeed, 3);
+            anim.SetTrigger("backDash");
         }
     }
     private void OnDrawGizmosSelected()
@@ -73,6 +76,7 @@ public class AISkeleton : MonoBehaviour
         {
             yield return new WaitForSeconds(.1f);
             scale.x = Mathf.Abs(scale.x) * -1 * (flip ? -1 : 1);
+
 
         }
         transform.localScale = scale;

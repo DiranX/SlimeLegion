@@ -23,7 +23,7 @@ public class Peluru : MonoBehaviour
         GameObject bullet = Instantiate(peluruPrefab, pointPeluru.position, pointPeluru.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         Vector2 arah = new Vector2(SlimeMovement.instance.transform.localScale.x, 0.4f);
-        rb.AddForce(arah * kecepatanPeluru, ForceMode2D.Impulse);
+        rb.AddForce(arah * kecepatanPeluru * Time.deltaTime, ForceMode2D.Impulse);
     }
 
 }

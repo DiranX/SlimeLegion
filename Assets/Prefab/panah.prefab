@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9213925395702119032}
   - component: {fileID: 6747305354177287287}
   - component: {fileID: 4220658038413890222}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: panah
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,3 +162,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowDamage: 10
+  DamagingPlayer: 0
