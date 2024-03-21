@@ -59,7 +59,7 @@ public class SlimeBehavior : MonoBehaviour
             SlimeMovement.instance.HorizontalMove();
         }
 
-        SlimeMovement.instance.Flip();
+        //SlimeMovement.instance.Flip();
 
     }
     public IEnumerator Sliding()

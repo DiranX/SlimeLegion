@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4394403665714313805}
   - component: {fileID: 9213925395702119032}
   - component: {fileID: 6747305354177287287}
-  m_Layer: 0
+  - component: {fileID: -1611921031997256115}
+  m_Layer: 12
   m_Name: panah 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,3 +149,17 @@ CapsuleCollider2D:
   m_Offset: {x: -0.00000005928622, y: 0.026712196}
   m_Size: {x: 1.0320628, y: 2.1449146}
   m_Direction: 1
+--- !u!114 &-1611921031997256115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719443814167822045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119eb479a01290b408081a5ae4273402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowDamage: 0
+  DamagingPlayer: 5

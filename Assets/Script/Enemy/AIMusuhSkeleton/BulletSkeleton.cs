@@ -8,6 +8,7 @@ public class BulletSkeleton : MonoBehaviour
     //private Rigidbody2D rb;
 
     public float arrowDamage;
+    public float DamagingPlayer;
 
     //public float force;
     //public float waktu;
@@ -42,7 +43,17 @@ public class BulletSkeleton : MonoBehaviour
         {
             Destroy(this.gameObject);
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(arrowDamage);
-            Debug.Log("Kena");
+        }
+
+        if (collision.gameObject.CompareTag("Player") && PlayerStatus.instance.playerHealth > 0)
+        {
+            PlayerStatus.instance.HealthBar(DamagingPlayer);
+            Destroy(this.gameObject);
+        }
+
+        if (collision.gameObject)
+        {
+            Destroy(gameObject);
         }
     }
 }
