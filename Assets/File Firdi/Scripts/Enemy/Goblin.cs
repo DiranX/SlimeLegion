@@ -19,6 +19,11 @@ public class Goblin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (EnemyController.instance.isStun == true)
+        {
+            return;
+        }
+
         StartCoroutine(Attacking());
     }
 

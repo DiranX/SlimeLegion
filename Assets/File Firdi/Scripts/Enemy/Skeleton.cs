@@ -26,18 +26,22 @@ public class Skeleton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Shooting();
+        //if (AISkeleton.instance.isStun == true)
+        //{
+        //    return;
+        //}
 
+        Shooting();
     }
 
     void Shooting()
     {
         Collider2D[] detectPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, playerMask);
-        foreach (Collider2D item in detectPlayer)
+        foreach (Collider2D Player in detectPlayer)
         {
             anim.SetTrigger("Shoot");
             isShootings = true;
-            //Debug.Log("Hit Player");
+            Debug.Log("ada Player");
         }
     }
     

@@ -19,11 +19,15 @@ public class Bomber : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(Attacking());
-
-        if(GetComponent<EnemyController>().Health <= 0)
+        if(EnemyController.instance.isStun == true)
         {
-            Destroy(gameObject);
+            return;
+        }
+
+
+        if(GetComponent<EnemyController>().Health > 0)
+        {
+            StartCoroutine(Attacking());
         }
     }
 

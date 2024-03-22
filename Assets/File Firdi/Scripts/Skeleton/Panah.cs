@@ -34,7 +34,7 @@ public class Panah : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy") && collision.gameObject.GetComponent<EnemyController>().Health > 0)
         {
             Destroy(this.gameObject);
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(arrowDamage);

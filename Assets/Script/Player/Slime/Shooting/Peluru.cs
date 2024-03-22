@@ -1,22 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Peluru : MonoBehaviour
 {
     public Transform pointPeluru;
     public GameObject peluruPrefab;
     public float kecepatanPeluru;
-    
-
+    public float jumlahPeluru;
+    public TextMeshProUGUI JumlahPeluruUI;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") )
+        JumlahPeluruUI.text = "" + jumlahPeluru;
+
+        if (Input.GetButtonDown("Fire1"))
         {
-            shoot1();
+            jumlahPeluru -= 1;
+            if (jumlahPeluru >= 0)
+            {
+                shoot1();
+            }
             SlimeBehavior.instance.animator.Play("Shoot");
         }
+
+        if(jumlahPeluru <= 0)
+        {
+            jumlahPeluru = 0;
+            StartCoroutine(RestorePeluru());
+        }
+    }
+    IEnumerator RestorePeluru()
+    {
+        yield return new WaitForSeconds(1);
+
+        jumlahPeluru = 3;
     }
     void shoot1()
     {

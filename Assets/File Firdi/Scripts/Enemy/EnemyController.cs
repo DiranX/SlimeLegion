@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
 
     public float Health;
     public float walkSpeed;
+    public bool isStun;
     //public float hookSpeed;
     public bool flip;
     public float detectRange;
@@ -30,6 +31,11 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         if(Health <= 0)
+        {
+            return;
+        }
+
+        if(isStun == true)
         {
             return;
         }
@@ -108,5 +114,22 @@ public class EnemyController : MonoBehaviour
         //GetComponent<Collider2D>().enabled = false;
         //rb.gravityScale = 1;
         Debug.Log("Musuh Mati");
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("SlimeBall"))
+        {
+            Debug.Log("Stun");
+            isStun = true;
+            anim.SetBool("isStun", true);
+            StartCoroutine(isSlime());
+        }
+    }
+
+    IEnumerator isSlime()
+    {
+        yield return new WaitForSeconds(3);
+        anim.SetBool("isStun", false);
+        isStun = false;
     }
 }

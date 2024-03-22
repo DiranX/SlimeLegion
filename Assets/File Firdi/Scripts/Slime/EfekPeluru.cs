@@ -34,7 +34,6 @@ public class EfekPeluru : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && collision.gameObject.GetComponent<EnemyController>().Health > 0)
         {
-            Debug.Log("Stuned");
             Destroy(gameObject);
         }
         if (collision.gameObject)

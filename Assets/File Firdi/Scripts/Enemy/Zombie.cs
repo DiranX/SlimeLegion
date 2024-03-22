@@ -32,6 +32,11 @@ public class Zombie : MonoBehaviour
             return;
         }
 
+        if (EnemyController.instance.isStun == true)
+        {
+            return;
+        }
+
         Attacking();
 
         if(isJump != true)

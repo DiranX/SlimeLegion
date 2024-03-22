@@ -64,12 +64,12 @@ public class ZombieBehavior : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
-            AttackInput();
+            StartCoroutine(AttackInput());
         }
 
         SlimeMovement.instance.Flip();
     }
-    public void AttackInput()
+    public IEnumerator AttackInput()
     {
         animator.SetTrigger("Attack");
         //isAttacking = true;
@@ -80,6 +80,7 @@ public class ZombieBehavior : MonoBehaviour
         {
             enemy.GetComponent<EnemyController>().TakeDamage(ZombieDamage);
         }
+        yield return new WaitForSeconds(2.5f);
     }
     public IEnumerator JumpForward()
     {
