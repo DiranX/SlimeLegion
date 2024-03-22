@@ -23,7 +23,7 @@ public class PossesEnemy : MonoBehaviour
 
     public void PossesEnemys()
     {
-        if (Input.GetKeyDown(KeyCode.E) && enemyisDead == true)
+        if (Input.GetKeyDown(KeyCode.E) && enemyisDead == true && PlayerStatus.instance.playerHealth > 0)
         {
             isPosses = true;
         }
