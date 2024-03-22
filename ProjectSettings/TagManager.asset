@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - SlimeBall
+  - Batasboomber
   layers:
   - Default
   - TransparentFX
