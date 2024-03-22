@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
 
     public float Health;
     public float walkSpeed;
+    public bool isStun;
     //public float hookSpeed;
     public bool flip;
     public float detectRange;
@@ -29,6 +30,16 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Health <= 0)
+        {
+            return;
+        }
+
+        if(isStun == true)
+        {
+            return;
+        }
+
         enemySound = GetComponent<AudioSource>();
         StartCoroutine(Flip());
         //if (PlayerStatus.instance.isDie)
@@ -82,8 +93,11 @@ public class EnemyController : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Health -= damage;
-        anim.SetTrigger("Hurt");
+        if(Health > 0)
+        {
+            Health -= damage;
+            anim.SetTrigger("Hurt");
+        }
 
         if(Health <= 0)
         {
@@ -98,7 +112,24 @@ public class EnemyController : MonoBehaviour
         enemySound.PlayOneShot(die, volume);
         this.enabled = false;
         //GetComponent<Collider2D>().enabled = false;
-        rb.gravityScale = 1;
+        //rb.gravityScale = 1;
         Debug.Log("Musuh Mati");
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("SlimeBall"))
+        {
+            Debug.Log("Stun");
+            isStun = true;
+            anim.SetBool("isStun", true);
+            StartCoroutine(isSlime());
+        }
+    }
+
+    IEnumerator isSlime()
+    {
+        yield return new WaitForSeconds(3);
+        anim.SetBool("isStun", false);
+        isStun = false;
     }
 }

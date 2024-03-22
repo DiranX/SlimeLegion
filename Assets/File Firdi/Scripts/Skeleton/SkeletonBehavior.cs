@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class SkeletonBehavior : MonoBehaviour
 {
@@ -16,7 +18,8 @@ public class SkeletonBehavior : MonoBehaviour
     public bool canSlide = true;
     [Header("Shoot")]
     public float bulletForce;
-    private int ammoAmmount;
+    public int ammoAmmount;
+    public TextMeshProUGUI JumlahPeluruUI;
     public bool isShoot;
     public Transform shootingPoint;
     public GameObject bulletPrefab;
@@ -39,7 +42,17 @@ public class SkeletonBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ShootInput();
+        JumlahPeluruUI.text = "" + ammoAmmount;
+
+        if(ammoAmmount <= 0)
+        {
+            ammoAmmount = 0;
+            StartCoroutine(RestorePeluru());
+        }
+        if(ammoAmmount > 0)
+        {
+            ShootInput();
+        }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canSlide)
         {
@@ -53,6 +66,11 @@ public class SkeletonBehavior : MonoBehaviour
 
         SlimeMovement.instance.Flip();
     }
+    IEnumerator RestorePeluru()
+    {
+        yield return new WaitForSeconds(1.5f);
+        ammoAmmount = 3;
+    }
     public void ShootInput()
     {
         if (Input.GetMouseButtonDown(0) && !isShoot)
@@ -61,7 +79,7 @@ public class SkeletonBehavior : MonoBehaviour
             GameObject bullet = Instantiate(bulletPrefab, shootingPoint.position, shootingPoint.rotation);
             bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(SlimeMovement.instance.transform.localScale.x, 0).normalized * bulletForce;
             //playerAudio.PlayOneShot(gunShoot, PlayerMove.instance.volume);
-            //ammoAmmount -= 1;
+            ammoAmmount -= 1;
             //ammo[ammoAmmount].gameObject.SetActive(false);
         }
     }
@@ -72,7 +90,7 @@ public class SkeletonBehavior : MonoBehaviour
         canSlide = false;
         //float gravity = rb.gravityScale;
         //rb.gravityScale = 0;
-        //animator.SetBool("isSlide", true);
+        animator.SetBool("isBack", true);
         //Physics2D.IgnoreLayerCollision(3, 7, true);
         //Physics2D.IgnoreLayerCollision(3, 8, true);
         rb.AddForce(arah, ForceMode2D.Impulse);
@@ -81,8 +99,8 @@ public class SkeletonBehavior : MonoBehaviour
         //Physics2D.IgnoreLayerCollision(3, 8, false);
         //rb.gravityScale = gravity;
         isSlide = false;
+        animator.SetBool("isBack", false);
         yield return new WaitForSeconds(slideCoolDown);
         canSlide = true;
-        //animator.SetBool("isSlide", false);
     }
 }

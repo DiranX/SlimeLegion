@@ -5,12 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - SlimeBall
   - Batasboomber
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Ground
@@ -19,12 +20,12 @@ TagManager:
   - LightBack
   - LightFront
   - Foreground
+  - Bullet
   - 
   - 
   - 
   - 
   - 
-  - Player
   - 
   - 
   - 

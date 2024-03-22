@@ -9,6 +9,7 @@ public class AISkeleton : MonoBehaviour
     public float Health;
     public float walkSpeed;
     public bool flip;
+    public bool isStun;
     public float detectRange;
     public GameObject detect;
     public Transform playerPos;
@@ -28,6 +29,15 @@ public class AISkeleton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Health <= 0)
+        {
+            return;
+        }
+
+        if (isStun == true)
+        {
+            return;
+        }
 
         enemySound = GetComponent<AudioSource>();
         StartCoroutine(DetectPlayer());
@@ -100,7 +110,24 @@ public class AISkeleton : MonoBehaviour
         enemySound.PlayOneShot(die, volume);
         this.enabled = false;
         //GetComponent<Collider2D>().enabled = false;
-        rb.gravityScale = 1;
+        //rb.gravityScale = 1;
         Debug.Log("Musuh Mati");
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("SlimeBall"))
+        {
+            Debug.Log("Stun");
+            isStun = true;
+            anim.SetBool("isStun", true);
+            StartCoroutine(isSlime());
+        }
+    }
+
+    IEnumerator isSlime()
+    {
+        yield return new WaitForSeconds(3);
+        isStun = false;
+        anim.SetBool("isStun", false);
     }
 }

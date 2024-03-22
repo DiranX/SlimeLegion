@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyStatus : MonoBehaviour
 {
     public static EnemyStatus instance;
+    public float corpseHealthValue;
     public bool isdead;
     public int iD;
 
@@ -25,6 +26,7 @@ public class EnemyStatus : MonoBehaviour
             SlimeBehavior.instance.animator.SetTrigger("Posses");
             //PossesEnemy.instance.gameObject.SetActive(false);
             PossesEnemy.instance.iD = iD;
+            PlayerStatus.instance.corpseHealthValue = PlayerStatus.instance.playerHealth + corpseHealthValue;
         }
     }
 
